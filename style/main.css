@@ -11,12 +11,15 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  color: #ffffff;
 }
 
 body {
   background-color: var(--preto);
   font-family: "Times New Roman", Times, serif;
 }
+
+/* container base */
 
 header .container {
   display: flex;
@@ -39,4 +42,28 @@ header nav a {
 
 header nav a:hover {
   color: #eee;
+}
+
+/* filme principal */
+
+.filme-principal {
+  font-size: 16px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url("../img/racker.jpg");
+  background-size: cover;
+  height: 400px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.filme-principal .descricao {
+  margin-bottom: 40px;
+  font-size: 16px;
+}
+
+.filme-principal .titulo {
+  font-size: 30px;
 }
