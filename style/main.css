@@ -1,0 +1,42 @@
+/*Declaração de variaveis*/
+
+:root {
+  --vermelho: #e50914;
+  --preto: #141414;
+}
+
+/*Reset css*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--preto);
+  font-family: "Times New Roman", Times, serif;
+}
+
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /*alinhamento vertical, no centro*/
+  justify-content: space-between; /*alinhamento horizontal, espaco entre elementos*/
+}
+
+header .container .logo {
+  margin-left: 10px;
+  color: var(--vermelho);
+  font-family: "Arial Black", Times;
+  font-size: 40px;
+}
+
+header nav a {
+  color: #aaa;
+  margin-right: 10px;
+}
+
+header nav a:hover {
+  color: #eee;
+}
