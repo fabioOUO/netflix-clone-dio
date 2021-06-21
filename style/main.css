@@ -49,7 +49,7 @@ header nav a:hover {
 .filme-principal {
   font-size: 16px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
-    url("../img/racker.jpg");
+    url("../img/filme-principal/principal.jpg");
   background-size: cover;
   height: 400px;
 
@@ -57,6 +57,11 @@ header nav a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+}
+
+.filme-principal .container {
+  margin-left: 20px;
+  width: 60%;
 }
 
 .filme-principal .descricao {
@@ -90,4 +95,21 @@ header nav a:hover {
 
 .filme-principal .botao i {
   padding-right: 8px;
+}
+
+.filme-principal .botao .cor-preta-icon {
+  color: var(--preto);
+}
+.filme-principal .botao .cor-branca-icon {
+  color: #ffffff;
+}
+
+.filme-principal .botao i {
+  padding-right: 8px;
+}
+
+.filme-imagem {
+  width: 100%;
+  height: 100%;
+  display: block;
 }
