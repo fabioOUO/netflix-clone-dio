@@ -60,6 +60,7 @@ header nav a:hover {
 }
 
 .filme-principal .container {
+  margin-top: 10px;
   margin-left: 20px;
   width: 60%;
 }

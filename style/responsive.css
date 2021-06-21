@@ -1,0 +1,28 @@
+/* responsividade */
+
+@media screen and (max-width: 700px) {
+  header .container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .botao {
+    margin-top: 7.5px;
+    width: 300px;
+  }
+
+  .filme-principal .container {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .botao {
+    margin-top: 7.5px;
+    width: 100%;
+  }
+  .botao i {
+    display: none;
+  }
+}
